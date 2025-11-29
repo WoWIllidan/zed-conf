@@ -20,8 +20,8 @@
       "ctrl-h": "editor::MoveLeft",
       "ctrl-j": "editor::MoveDown",
       "ctrl-k": "editor::MoveUp",
-      "H": "editor::MoveToBeginningOfLine",
-      "L": "editor::MoveToEndOfLine"
+      "alt-h": "editor::MoveToBeginningOfLine",
+      "alt-l": "editor::MoveToEndOfLine"
     }
   },
   {
