@@ -39,6 +39,18 @@
     "languages": {
         "Rust": {
             "format_on_save": "on"
+        },
+        "Go": {
+            "format_on_save": "on"
+        },
+        "Python": {
+            "format_on_save": "on"
+        },
+        "JavaScript": {
+            "format_on_save": "on"
+        },
+        "TypeScript": {
+            "format_on_save": "on"
         }
     }
 }
