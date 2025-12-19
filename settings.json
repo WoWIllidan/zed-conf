@@ -26,7 +26,11 @@
         "dark": "Zed (Default)"
     },
     "ui_font_size": 16,
-    "buffer_font_size": 12.0,
+    "buffer_font_size": 13.0,
+    "buffer_font_family": "JetBrains Mono",
+    "buffer_font_features": {
+        "calt": false
+    },
     "theme": {
         "mode": "dark",
         "light": "One Light",
@@ -52,5 +56,10 @@
         "TypeScript": {
             "format_on_save": "on"
         }
+    },
+    "preview_tabs": {
+        "enabled": true,
+        "enable_preview_from_file_finder": true,
+        "enable_preview_from_code_navigation": true
     }
 }
