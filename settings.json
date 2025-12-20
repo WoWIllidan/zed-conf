@@ -61,5 +61,6 @@
         "enabled": true,
         "enable_preview_from_file_finder": true,
         "enable_preview_from_code_navigation": true
-    }
+    },
+    "colorize_brackets": true
 }
