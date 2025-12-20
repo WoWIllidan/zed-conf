@@ -12,14 +12,14 @@
     "tab_size": 4,
     "hard_tabs": false,
     "agent": {
-        "default_profile": "write",
+        "default_profile": "ask",
         "default_model": {
             "provider": "copilot_chat",
-            "model": "gpt-5-mini"
+            "model": "gpt-5.2"
         },
         "model_parameters": []
     },
-    "base_keymap": "Emacs",
+    "base_keymap": "VSCode",
     "icon_theme": {
         "mode": "dark",
         "light": "Zed (Default)",
