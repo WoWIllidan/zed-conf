@@ -12,10 +12,11 @@
     "tab_size": 4,
     "hard_tabs": false,
     "agent": {
+        "always_allow_tool_actions": true,
         "default_profile": "write",
         "default_model": {
-            "provider": "copilot_chat",
-            "model": "gpt-5-mini",
+            "provider": "zed.dev",
+            "model": "claude-sonnet-4-5",
         },
         "model_parameters": [],
     },
