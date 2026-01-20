@@ -38,4 +38,14 @@
             "alt-0": "editor::SwitchSourceHeader",
         },
     },
+    {
+        "context": "os == linux",
+        "bindings": {
+            "ctrl-k p": "workspace::ToggleLeftDock",
+            "ctrl-k r": "workspace::ToggleRightDock",
+            "ctrl-k a": "agent::ToggleFocus",
+            "ctrl-k t": "terminal_panel::Toggle",
+        },
+    },
 ]
+
