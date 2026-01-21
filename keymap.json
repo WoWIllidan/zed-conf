@@ -39,12 +39,15 @@
         },
     },
     {
-        "context": "os == linux",
         "bindings": {
-            "ctrl-k p": "workspace::ToggleLeftDock",
-            "ctrl-k r": "workspace::ToggleRightDock",
-            "ctrl-k a": "agent::ToggleFocus",
-            "ctrl-k t": "terminal_panel::Toggle",
+            "secondary-k p": "workspace::ToggleLeftDock",
+            "secondary-k r": "workspace::ToggleRightDock",
+            "secondary-k a": "agent::ToggleFocus",
+            "secondary-k t": "terminal_panel::Toggle",
+            "secondary-k secondary-p": "workspace::ToggleLeftDock",
+            "secondary-k secondary-r": "workspace::ToggleRightDock",
+            "secondary-k secondary-a": "agent::ToggleFocus",
+            "secondary-k secondary-t": "terminal_panel::Toggle",
         },
     },
 ]
