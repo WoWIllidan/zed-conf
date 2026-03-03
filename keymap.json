@@ -50,5 +50,37 @@
             "secondary-k secondary-t": "terminal_panel::Toggle",
         },
     },
+    {
+        "context": "Pane",
+        "bindings": {
+            "secondary-k o": [
+                "pane::CloseOtherItems",
+                {
+                    "close_pinned": false,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Pane",
+        "bindings": {
+            "secondary-k h": [
+                "pane::CloseItemsToTheLeft",
+                {
+                    "close_pinned": false,
+                },
+            ],
+        },
+    },
+    {
+        "context": "Pane",
+        "bindings": {
+            "secondary-k l": [
+                "pane::CloseItemsToTheRight",
+                {
+                    "close_pinned": false,
+                },
+            ],
+        },
+    },
 ]
-
