@@ -17,7 +17,9 @@
     "tab_size": 4,
     "hard_tabs": false,
     "agent": {
-        "always_allow_tool_actions": true,
+        "tool_permissions": {
+            "default": "allow"
+        },
         "default_profile": "write",
         "default_model": {
             "provider": "zed.dev",
