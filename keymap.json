@@ -89,4 +89,10 @@
             "secondary-[ s": "pane::RevealInProjectPanel",
         },
     },
+    {
+        "context": "VimControl && !menu",
+        "bindings": {
+            "g t": "vim::WindowTop",
+        },
+    },
 ]
