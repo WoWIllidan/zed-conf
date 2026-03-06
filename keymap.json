@@ -35,7 +35,7 @@
     {
         "context": "Editor && mode == full && !menu",
         "bindings": {
-            "alt-0": "editor::SwitchSourceHeader",
+            "secondary-k secondary-o": "editor::SwitchSourceHeader",
         },
     },
     {
@@ -81,6 +81,12 @@
                     "close_pinned": false,
                 },
             ],
+        },
+    },
+    {
+        "context": "!ContextEditor > (Editor && mode == full)",
+        "bindings": {
+            "secondary-[ s": "pane::RevealInProjectPanel",
         },
     },
 ]
