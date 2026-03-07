@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    
     "base_keymap": "VSCode",
     "which_key": {
         "enabled": true,
@@ -22,18 +23,21 @@
         },
         "default_profile": "write",
         "default_model": {
-            "provider": "zed.dev",
-            "model": "claude-sonnet-4-5",
+            "enable_thinking": false,
+            "provider": "copilot_chat",
+            "model": "gpt-5.4",
         },
         "model_parameters": [],
     },
+    "agent_ui_font_size": 17.0,
+    "agent_buffer_font_size": 17.0,
     "icon_theme": {
         "mode": "dark",
         "light": "Zed (Default)",
         "dark": "Zed (Default)",
     },
-    "ui_font_size": 16,
-    "buffer_font_size": 13.0,
+    "ui_font_size": 19.0,
+    "buffer_font_size": 18.0,
     "buffer_font_family": "Maple Mono",
     "buffer_font_features": {
         "calt": false,

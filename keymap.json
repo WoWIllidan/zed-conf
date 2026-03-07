@@ -95,4 +95,16 @@
             "g t": "vim::WindowTop",
         },
     },
+    {
+        "context": "Pane",
+        "bindings": {
+            "alt->": "pane::ActivateNextItem",
+        },
+    },
+    {
+        "context": "Pane",
+        "bindings": {
+            "alt-<": "pane::ActivatePreviousItem",
+        },
+    },
 ]
