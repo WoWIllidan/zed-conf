@@ -7,7 +7,6 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-    
     "base_keymap": "VSCode",
     "which_key": {
         "enabled": true,
@@ -19,7 +18,7 @@
     "hard_tabs": false,
     "agent": {
         "tool_permissions": {
-            "default": "allow"
+            "default": "allow",
         },
         "default_profile": "write",
         "default_model": {
@@ -31,26 +30,26 @@
     },
     "agent_ui_font_size": 12.0,
     "agent_buffer_font_size": 12.0,
-    "icon_theme": {
-        "mode": "dark",
-        "light": "Zed (Default)",
-        "dark": "Zed (Default)",
-    },
     "ui_font_size": 16.0,
     "buffer_font_size": 13.0,
     "buffer_font_family": "Maple Mono",
     "buffer_font_features": {
         "calt": false,
     },
+    "icon_theme": {
+        "mode": "dark",
+        "light": "Zed (Default)",
+        "dark": "Zed (Default)",
+    },
     "theme": {
         "mode": "dark",
         "light": "One Light",
         "dark": "One Dark",
     },
-    "format_on_save": "on",
     "preferred_line_length": 120,
     "relative_line_numbers": "enabled",
     "current_line_highlight": "line",
+    "format_on_save": "on",
     "languages": {
         "C": {
             "format_on_save": "on",
@@ -80,4 +79,53 @@
         "enable_keep_preview_on_code_navigation": true,
     },
     "colorize_brackets": true,
+    "use_auto_surround": true,
+    "tab_bar": {
+        "show": true,
+    },
+    "tabs": {
+        "activate_on_close": "left_neighbour",
+        "show_diagnostics": "all",
+        "show_close_button": "hover",
+        "close_position": "right",
+        "git_status": true,
+    },
+    "debugger": {
+        "button": true,
+    },
+    "search": {
+        "button": true,
+    },
+    "terminal": {
+        "button": true,
+    },
+    "project_panel": {
+        "git_status": true,
+        "folder_icons": true,
+        "file_icons": true,
+        "dock": "left",
+        "button": true,
+    },
+    "status_bar": {
+        "active_encoding_button": "enabled",
+        "cursor_position_button": true,
+        "active_language_button": true,
+    },
+    "scrollbar": {
+        "show": "auto",
+    },
+    "extend_comment_on_newline": false,
+    "show_whitespaces": "selection",
+    "git_panel": {
+        "button": true,
+        "sort_by_path": true,
+        "dock": "left",
+        "tree_view": true,
+    },
+    "minimap": {
+        "max_width_columns": 80,
+        "thumb_border": "left_open",
+        "thumb": "always",
+        "show": "auto",
+    },
 }
