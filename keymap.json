@@ -20,6 +20,7 @@
             "ctrl-h": "editor::MoveLeft",
             "ctrl-j": "editor::MoveDown",
             "ctrl-k": "editor::MoveUp",
+            "alt-k": "editor::MoveUp",
             "alt-h": "editor::MoveToBeginningOfLine",
             "alt-l": "editor::MoveToEndOfLine",
         },
