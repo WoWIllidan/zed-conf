@@ -28,7 +28,7 @@
     {
         "context": "Editor",
         "bindings": {
-            "shift-alt-f": "editor::Format",
+            "secondary-k d": "editor::Format",
             "ctrl-\\": "pane::SplitRight",
             "ctrl-alt-\\": "pane::SplitDown",
         },
