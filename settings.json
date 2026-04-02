@@ -22,7 +22,8 @@
         },
         "default_profile": "write",
         "default_model": {
-            "enable_thinking": false,
+            "effort": "medium",
+            "enable_thinking": true,
             "provider": "copilot_chat",
             "model": "claude-sonnet-4.6",
         },
@@ -100,6 +101,7 @@
         "button": true,
     },
     "project_panel": {
+        "git_status_indicator": true,
         "git_status": true,
         "folder_icons": true,
         "file_icons": true,
