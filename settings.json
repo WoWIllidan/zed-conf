@@ -17,6 +17,8 @@
     "tab_size": 4,
     "hard_tabs": false,
     "agent": {
+        "sidebar_side": "left",
+        "dock": "left",
         "tool_permissions": {
             "default": "allow",
         },
@@ -101,11 +103,13 @@
         "button": true,
     },
     "project_panel": {
+        "show_diagnostics": "all",
+        "diagnostic_badges": true,
         "git_status_indicator": true,
         "git_status": true,
         "folder_icons": true,
         "file_icons": true,
-        "dock": "left",
+        "dock": "right",
         "button": true,
     },
     "status_bar": {
@@ -114,6 +118,7 @@
         "active_language_button": true,
     },
     "scrollbar": {
+        "diagnostics": "all",
         "show": "auto",
     },
     "extend_comment_on_newline": false,
@@ -121,7 +126,7 @@
     "git_panel": {
         "button": true,
         "sort_by_path": true,
-        "dock": "left",
+        "dock": "right",
         "tree_view": true,
     },
     "minimap": {
@@ -129,5 +134,21 @@
         "thumb_border": "left_open",
         "thumb": "always",
         "show": "auto",
+    },
+    "diagnostics": {
+        "button": true,
+        "lsp_pull_diagnostics": {
+            "enabled": true,
+        },
+    },
+    "telemetry": {
+        "diagnostics": true,
+        "metrics": true,
+    },
+    "outline_panel": {
+        "dock": "right",
+    },
+    "collaboration_panel": {
+        "dock": "right",
     },
 }
