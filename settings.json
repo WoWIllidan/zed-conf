@@ -24,7 +24,7 @@
         },
         "default_profile": "write",
         "default_model": {
-            "effort": "medium",
+            "effort": "high",
             "enable_thinking": true,
             "provider": "copilot_chat",
             "model": "claude-sonnet-4.6",
@@ -151,4 +151,5 @@
     "collaboration_panel": {
         "dock": "right",
     },
+    "cli_default_open_behavior": "new_window",
 }

@@ -31,6 +31,7 @@
             "secondary-k d": "editor::Format",
             "ctrl-\\": "pane::SplitRight",
             "ctrl-alt-\\": "pane::SplitDown",
+            "secondary-k c": "workspace::CopyRelativePath",
         },
     },
     {
@@ -41,11 +42,12 @@
     },
     {
         "bindings": {
-            "secondary-k p": "workspace::ToggleRightDock",
+            "secondary-k [": "workspace::ToggleLeftDock",
+            "secondary-k ]": "workspace::ToggleRightDock",
             "secondary-k a": "workspace::ToggleLeftDock",
             "secondary-k t": "terminal_panel::Toggle",
-            "secondary-k secondary-p": "workspace::ToggleRightDock",
-            "secondary-k secondary-a": "workspace::ToggleLeftDock",
+            "secondary-k secondary-]": "workspace::ToggleRightDock",
+            "secondary-k secondary-[": "workspace::ToggleLeftDock",
             "secondary-k secondary-t": "terminal_panel::Toggle",
         },
     },
