@@ -108,4 +108,10 @@
             "alt-<": "pane::ActivatePreviousItem",
         },
     },
+    {
+        "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
+        "unbind": {
+            "g e": "vim::EndOfDocument"
+        }
+    }
 ]
