@@ -32,6 +32,7 @@
             "ctrl-\\": "pane::SplitRight",
             "ctrl-alt-\\": "pane::SplitDown",
             "secondary-k c": "workspace::CopyRelativePath",
+            "alt-d": "editor::SelectNext",
         },
     },
     {
@@ -111,7 +112,7 @@
     {
         "context": "(vim_mode == helix_normal || vim_mode == helix_select) && !menu",
         "unbind": {
-            "g e": "vim::EndOfDocument"
-        }
-    }
+            "g e": "vim::EndOfDocument",
+        },
+    },
 ]
