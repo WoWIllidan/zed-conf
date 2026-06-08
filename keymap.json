@@ -115,4 +115,16 @@
             "g e": "vim::EndOfDocument",
         },
     },
+    {
+        "context": "Editor",
+        "bindings": {
+            "shift-space": "editor::ShowCompletions"
+        }
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "ctrl-space": "editor::ShowCompletions"
+        }
+    }
 ]
