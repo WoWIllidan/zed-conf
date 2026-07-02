@@ -126,5 +126,10 @@
         "unbind": {
             "ctrl-space": "editor::ShowCompletions"
         }
+    },
+    {
+        "bindings": {
+            "ctrl-alt-f": "text_finder::Toggle"
+        }
     }
 ]
