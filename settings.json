@@ -7,7 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-    "base_keymap": "VSCode",
+    "base_keymap": "Zed",
     "which_key": {
         "enabled": true,
         "delay_ms": 500,
